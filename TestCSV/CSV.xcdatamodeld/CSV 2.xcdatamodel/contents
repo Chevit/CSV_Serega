@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14133" systemVersion="17E199" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="User" representedClassName="User" syncable="YES" codeGenerationType="class">
+        <attribute name="birth" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ips" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="psp" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserInternal" representedClassName="UserInternal" syncable="YES" codeGenerationType="class">
+        <attribute name="accountNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="birth" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="currencyId" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="firstMove" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ips" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastMove" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="psp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="summaNow" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="UserInternalAdditional" representedClassName="UserInternalAdditional" parentEntity="UserInternal" syncable="YES" codeGenerationType="class"/>
+    <elements>
+        <element name="User" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="UserInternal" positionX="88" positionY="-72" width="128" height="195"/>
+        <element name="UserInternalAdditional" positionX="241" positionY="27" width="128" height="45"/>
+    </elements>
+</model>
